@@ -1,0 +1,23 @@
+.init {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.esfera{
+    width: 300px;
+}
+
+.personagem {
+    display: flex;
+    margin: 10px;
+    
+}
+
+
+.goku{
+    width: 300px;
+}
