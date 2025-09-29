@@ -3,6 +3,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    width: 100%;
 
 
 }
@@ -11,13 +12,63 @@
     width: 300px;
 }
 
-.personagem {
+.card {
+    width: 400px;
+    height: 500px;
+    border: 10px double;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+
+.personagem {
+    margin: 20px;
+    
+
+}
+.card div img {
+    width: 200px;
+    height: 200px;
+
+    border-bottom: #000 solid 2px;
+    border-radius: 10px;
+}
+
+.name, .descricao {
+    color: green;
+}
+
+.descricao
+{
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
     margin: 10px;
+    border-radius: 20px;
+
+}
+
+.descricao ul {
+    text-align: center;
+    list-style: none;
     
 }
 
-
-.goku{
-    width: 300px;
+.skils {
+    color: #000000;
 }
+
+.skils, .descricao ul  {
+    font-size: 18px;
+    padding: 10px;
+}
+
+ul li {
+    margin: 5px;
+}
+
+
+
